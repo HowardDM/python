@@ -56,4 +56,4 @@ class Television:
             vol = 0 if self.__muted else self.__volume
             return f"Power = {self.__status}, Channel = {self.__channel}, Volume = {vol}"
         else:
-            return "TV is off"
+            return ("Tv off")
